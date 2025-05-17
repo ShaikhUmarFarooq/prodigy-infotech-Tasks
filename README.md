@@ -1,110 +1,120 @@
-# prodigy-infotech-Tasks
-# 💼 Prodigy InfoTech Data Science Internship
+# 📊 Prodigy InfoTech – Data Science Internship
 
-Welcome to my Data Science Internship portfolio with **Prodigy InfoTech**!  
-This repository includes all tasks completed as part of the internship program, with explanations, code, insights, and visualizations.
+Welcome to my official repository for the **Prodigy InfoTech Data Science Internship**, where I completed a series of real-world tasks using Python, covering data cleaning, analysis, visualization, sentiment analysis, and pattern recognition.
 
-📅 **Internship Period:** April 2025 – May 2025  
-🎓 **Intern:** Shaikh Umar Farooq  
-🎓 **Branch:** B.Tech CSE (AIML), 3rd Year, DBATU University  
-🌐 **Organization:** [Prodigy InfoTech](https://prodigyinfotech.dev/)
+📅 **Internship Duration:** April – May 2025  
+🎓 **Name:** Shaikh Umar Farooq  
+🏫 **Branch:** B.Tech CSE (AIML), 3rd Year – DBATU University  
+🔗 **Organization:** [Prodigy InfoTech](https://prodigyinfotech.dev/)  
 
 ---
 
-## 📂 Contents
+## 📌 Internship Tasks
 
-- [✅ Task 1: (Coming Soon)](#task-1-coming-soon)
-- [✅ Task 2: (Coming Soon)](#task-2-coming-soon)
-- [✅ Task 3: Data Cleaning and EDA](#task-3-data-cleaning-and-exploratory-data-analysis)
-- [✅ Task 4: Sentiment Analysis on Twitter Data](#task-4-sentiment-analysis-on-twitter-data)
+### ✅ Task 1: Data Visualization
 
----
+**Objective:**  
+Create a bar chart or histogram to visualize the distribution of a categorical or continuous variable.
 
-## ✅ Task 1: (Coming Soon)
+**Tools Used:** Python, Matplotlib, Seaborn  
+**Key Outputs:**  
+- Bar chart of gender count  
+- Histogram of age distribution  
 
-📌 *Will be updated once completed.*
-
----
-
-## ✅ Task 2: (Coming Soon)
-
-📌 *Will be updated once completed.*
+📁 File: `task1_visualization.ipynb`
 
 ---
 
-## ✅ Task 3: Data Cleaning and Exploratory Data Analysis
+### ✅ Task 2: Data Cleaning and EDA on Titanic Dataset
 
-### 🔗 Dataset:
-[Titanic Dataset from Kaggle](https://www.kaggle.com/competitions/titanic/data)  
-📁 File Used: `train.csv`
+**Objective:**  
+Perform data cleaning and exploratory data analysis on the Titanic dataset from Kaggle.
 
-### 📌 Objective:
-Perform data cleaning and exploratory data analysis (EDA) to identify patterns in the Titanic dataset.
+**Dataset:** [Titanic Dataset – Kaggle](https://www.kaggle.com/c/titanic/data)  
+**Key Steps:**
+- Handling missing values (Age, Embarked)
+- Dropping irrelevant columns (Cabin)
+- Visualizing survival patterns by gender, class, age
+- Heatmap of correlations
 
-### 🛠️ Key Steps:
-- Handle missing values
-- Visualize survival distribution by gender, class, and age
-- Create heatmaps and histograms
-- Generate insights about survival factors
+**Insights:**  
+- Females and first-class passengers had higher survival rates  
+- Kids and young adults survived more than elders
 
-### 📸 Output:
-- Survival count plots
-- Gender vs. Survival
-- Class vs. Survival
-- Age distribution
-- Correlation heatmap
-
-### 📁 Files:
-- `task3_titanic_eda.ipynb`
+📁 File: `task2_titanic_eda.ipynb`
 
 ---
 
-## ✅ Task 4: Sentiment Analysis on Twitter Data
+### ✅ Task 3: Sentiment Analysis on Twitter Data
 
-### 🔗 Dataset:
-[Twitter Entity Sentiment Analysis - Kaggle](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis)  
-📁 File Used: `training.csv`
+**Objective:**  
+Analyze social media tweets to classify them into Positive, Negative, and Neutral sentiments.
 
-### 📌 Objective:
-Analyze and visualize sentiment patterns in social media (Twitter) data to understand public opinion on different entities (brands or topics).
+**Dataset:** [Twitter Entity Sentiment Analysis – Kaggle](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis)  
+**Key Steps:**
+- Dropped null and duplicate tweets
+- Visualized sentiment distribution using countplot
+- WordClouds for each sentiment group
+- Sentiment analysis across different entities/brands
 
-### 🛠️ Key Steps:
-- Clean tweet text data
-- Analyze sentiment distribution
-- Generate WordClouds per sentiment
-- Visualize sentiment distribution across entities
+**Insights:**  
+- Most tweets were neutral  
+- Positive tweets were slightly more than negative  
+- Certain brands received more positive attention
 
-### 📊 Key Insights:
-- Positive tweets are dominant
-- Some brands receive mixed reactions
-- Frequent positive/negative words visualized using WordCloud
-
-### 📁 Files:
-- `task4_sentiment_analysis.ipynb`
+📁 File: `task3_sentiment_analysis.ipynb`
 
 ---
 
-## 🧠 Tools & Libraries Used
+### ✅ Task 4: Traffic Accident Data Analysis
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- WordCloud
-- Jupyter Notebook
+**Objective:**  
+Analyze traffic accident data and visualize contributing factors like road conditions and weather.
+
+**Dataset:** [Traffic Accident Data with Weather Conditions – Kaggle](https://www.kaggle.com/datasets/bismasajjad/traffic-accident-data-with-weather-conditions)  
+**Key Steps:**
+- Analyzed accident severity distribution
+- Visualized top weather conditions during accidents
+- Identified top 10 accident-prone states and cities
+- Visualized visibility vs severity using box plots
+
+**Insights:**  
+- Most accidents occurred under "Clear" weather  
+- Severity 2 was the most common  
+- Urban areas had higher accident density
+
+📁 File: `task4_traffic_accident_analysis.ipynb`
 
 ---
 
-## 📬 Contact
+### ✅ Task 5: Road Accident Analysis – Pattern Detection
 
-**Shaikh Umar Farooq**  
-📧 Email: [your-email@example.com]  
-🔗 GitHub: [github.com/yourusername](https://github.com/yourusername)  
-🔗 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+**Objective:**  
+Analyze traffic accident data to identify patterns related to **road conditions**, **weather**, and **location**. Visualize **accident hotspots** and contributing factors using Python.
+
+**Dataset:** [Traffic Accident Data with Weather Conditions – Kaggle](https://www.kaggle.com/datasets/bismasajjad/traffic-accident-data-with-weather-conditions)
+
+**Key Steps:**
+- Loaded dataset with features like `Severity`, `Weather_Condition`, `Visibility`, `State`, `City`, `Latitude`, `Longitude`
+- Cleaned and filtered missing values
+- Visualized severity distribution, weather trends, and state-wise accident counts
+- Created interactive accident hotspot map using Plotly
+
+**Visualizations Used:**
+- Countplot for Severity levels
+- Bar charts for top Weather Conditions
+- Bar chart for States with most accidents
+- Scatter Mapbox for accident hotspot visualization (using Latitude & Longitude)
+
+**Insights:**
+- Severity level 2 was most frequent  
+- Most accidents occurred in "Clear", "Overcast", and "Rain" weather  
+- States like California, Texas, and Florida had highest accident counts  
+- Hotspots were mostly in urban areas (based on plotted locations)
+
+📁 File: `task5_accident_hotspots_analysis.ipynb`
 
 ---
 
-## 📌 Note
-
-This repository is part of my Data Science Internship program with **Prodigy InfoTech**, showcasing hands-on tasks and real-world projects.
+## 📂 Folder Structure
 
